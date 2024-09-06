@@ -1,15 +1,13 @@
 {
   "name": "my-web-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple web application",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "echo \"No tests defined\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.17.1"
   }
 }
